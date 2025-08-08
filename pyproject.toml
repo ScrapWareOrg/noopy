@@ -6,12 +6,12 @@ build-backend = "setuptools.build_meta"
 where = ["src/"]
 
 [project]
-name = "lispy"
-version = "0.72.1"
+name = "noopy"
+version = "0.0.1"
 authors = [
   { name="Twinkle Computing", email="twinkle@twinkle.work" },
 ]
-description = "Simple Python list() Extensions"
+description = "Noo-lib, Now is Simple Python list() Extensions"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -21,5 +21,5 @@ license = "GPL-3.0-or-later AND LicenseRef-ResistPsychiatricTerror-1.0-or-later"
 license-files = ["LICEN[CS]E*", "LICENSE.GPLv3", "LICENSE.RPTv1"]
 
 [project.urls]
-Homepage = "https://github.com/ScrapWareORG/lispy"
-Issues = "https://github.com/ScrapWareORG/lispy/issues"
+Homepage = "https://github.com/ScrapWareORG/noopy"
+Issues = "https://github.com/ScrapWareORG/noopy/issues"

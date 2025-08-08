@@ -3,8 +3,8 @@
 ######################################################################
 # LIBS
 
-import lispy as lp
-from lispy import lispy, arrpy
+import noopy as nop
+from noopy import lispy, arrpy
 
 ######################################################################
 # MAIN
@@ -34,27 +34,27 @@ print("By the first, this is original array.")
 lispri(block, 6)
 
 print("Available split positions.")
-lispri(lp.splpos(block))
+lispri(nop.splpos(block))
 
 print("Available split to 9(9x4)?")
 print("")
-print(lp.is_spl(block, 9))
+print(nop.is_spl(block, 9))
 print("")
 
 print("Split to 9(9x4).")
-lispri(lp.splist(block, 9))
+lispri(nop.splist(block, 9))
 
 print("[ Transpose ]")
-lispri(lp.transpose(block, 6, 6), 6)
+lispri(nop.transpose(block, 6, 6), 6)
 
 print("[ Flip LR ]")
-lispri(lp.flip(block, 6, 6, 'x'), 6)
+lispri(nop.flip(block, 6, 6, 'x'), 6)
 
 print("[ Flip UD ]")
-lispri(lp.flip(block, 6, 6, 'y'), 6)
+lispri(nop.flip(block, 6, 6, 'y'), 6)
 
 print("[ Flip XX ]")
-lispri(lp.flip(block, 6, 6, 'z'), 6)
+lispri(nop.flip(block, 6, 6, 'z'), 6)
 
 print("These are 2D Array Simulation from on there.")
 print("")

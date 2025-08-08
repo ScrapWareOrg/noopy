@@ -1,28 +1,33 @@
-# lispy
+# noopy
 
-For singleton dimension(same flatten) simple tiny list and array(array.array) library. This library could be `str` transpose and flip on like 2D singleton dims as result of list extends. This module useful if limited ext modules(numpy, torch, and others) and also passes values to those modules.
+For singleton dimension(same flatten) simple tiny list and array(array.array) library. This module could be `str` transpose and flip on like 2D singleton dims as result of list extends. This module useful if limited ext modules(numpy, torch, and others) and also passes values to those modules.
+
+
+## lispy
+
+Based on list `lispy` therefore this class suite for `str` treat.
 
 ## arrpy (appendix)
 
-Based on array.array therefore few memory cost and process speed more than lispy. On the other hand, this library is not suite for `str` treat.
+Based on array.array `arrpy` therefore few memory cost and process speed more than lispy. On the other hand, this library is not suite for `str` treat.
 
 ---
 
 ## Features
 
-* **Processing on Basic Module**: Only!
-* **Splitter**:Array splitter have get of best split position function and others.
-* **Transpose**: Transposer is  equivalent 2D free transpose on 1D it's make as possible for `str` array too.
-* **Flip**: Flipper is  equivalent 2D free Flip on 1D it's make as possible for `str` array too.
+  * **Processing on Basic Module**: Only!
+  * **Splitter**:Array splitter have get of best split position function and others.
+  * **Transpose**: Transposer is  equivalent 2D free transpose on 1D it's make as possible for `str` array too.
+  * **Flip**: Flipper is  equivalent 2D free Flip on 1D it's make as possible for `str` array too.
 
 ---
 
 ## Installation
 
-You can install `lispy` directly from PyPI:
+You can install `noopy` directly from PyPI:
 
 ```bash
-pip install lispy
+pip install noopy
 ````
 
 -----
@@ -32,11 +37,11 @@ pip install lispy
 Get started with `lispy` in just a few lines of code:
 
 ```python
-import lispy as lp
-from lispy import lispy, arrpy # Example for array disassembly
+import noopy as nop
+from noopy import lispy, arrpy # Example for array disassembly
 
-my_lst = lp.lispy([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-my_arr = lp.arrpy([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+my_lst = nop.lispy([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+my_arr = nop.arrpy([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 ```
 
 -----
@@ -47,7 +52,7 @@ Impremented Features.
 
 ## API Reference
 
-### `lispy` Modules Methods
+### `noopy` Modules Methods
 
   * **is_spl(arr:list, n:int)** Check could be split specified value count.
       * `arr`: (list) Wanted list.
@@ -149,12 +154,12 @@ Same above(listpy), still not feature as similar torch functions, wanna be,,, no
 
 ## Command Line Usage
 
-`lispy` includes a simple command-line interface for testing its console output capabilities.
+`noopy` includes a simple command-line interface for testing its console output capabilities.
 
 To run the test, simply execute:
 
 ```bash
-python -m lispy
+python -m noopy
 By the first, this is original array.
 
 0, 1, 2, 3, 4, 5, 
@@ -286,10 +291,10 @@ t, s, r,
 
 ## Contributing
 
-We welcome contributions to `lispy`\! If you find a bug, have a feature request, or would like to contribute code, please check out our GitHub repository and open an issue or pull request.
+We welcome contributions to `noopy`\! If you find a bug, have a feature request, or would like to contribute code, please check out our GitHub repository and open an issue or pull request.
 
 -----
 
 ## License
 
-`lispy` is licensed under the GPLv3 AND LicenseRef-RPTv1.
+`noopy` is licensed under the GPLv3 AND LicenseRef-RPTv1.
