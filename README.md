@@ -37,22 +37,6 @@ from lispy import lispy, arrpy # Example for array disassembly
 
 my_lst = lp.lispy([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 my_arr = lp.arrpy([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-
-# Get Split Positions
-logger = lispy.splpos()
-
-# Output a simple info message
-logger.info("Application started successfully!")
-
-# Output a debug message with a custom title
-logger.debug("Debug mode is ON", title="Configuration")
-
-# Demonstrate array disassembly
-my_array = np.array([[1.23, 4.56], [7.89, 0.12]])
-logger.info(my_array, title="Metrics")
-
-# Use a fun print function
-lispy.pixie("Status", "Data processing complete!")
 ```
 
 -----
@@ -60,13 +44,6 @@ lispy.pixie("Status", "Data processing complete!")
 ## Basic Usage
 
 Impremented Features.
-
-### Compatible Imprements
- * **root(*RootLogger*)**: ...
- * **BasicConfig**: ...
- * **LogRecord**: ...
-
------
 
 ## API Reference
 

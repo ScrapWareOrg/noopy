@@ -7,7 +7,7 @@ where = ["src/"]
 
 [project]
 name = "lispy"
-version = "0.72.0"
+version = "0.72.1"
 authors = [
   { name="Twinkle Computing", email="twinkle@twinkle.work" },
 ]

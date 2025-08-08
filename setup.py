@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='lispy',
-    version='0.72.0',
+    version='0.72.1',
     packages=find_packages(exclude=['tests']),
     entry_points={
         'console_scripts': [
