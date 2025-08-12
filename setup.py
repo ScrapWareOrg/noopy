@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='lispy',
-    version='0.0.1',
+    name='noopy',
+    version='0.11.0',
     packages=find_packages(exclude=['tests']),
     entry_points={
         'console_scripts': [
-            'my_command = lispy.module:main_func',
+            'my_command = noopy.module:main_func',
         ],
     },
 )
